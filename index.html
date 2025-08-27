@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div div class="container">
+    <form action="" class="card-form" id="age-form">
+      <div class="card-inputContainer">
+        <label for="day" class="card-label">Day</label>
+        <input type="number" name="day" id="day" class="card-input" placeholder="day" min="0" max="31">
+        <span class="card-errorMessage">Day must be a number between 0 and 31</span>
+      </div>
+      <div class="card-inputContainer">
+        <label for="month" class="card-label">Month</label>
+        <input placeholder="month" min="0" max="12" type="number" name="month" id="month" class="card-input">
+        <span class="card-errorMessage"> must be a number and a valid month </span>
+      </div>
+      <div class="card-inputContainer">
+        <label for="year" class="card-label"> year</label>
+        <input type="number" name="year" id="year" placeholder="year" class="card-input" min="1900" max="2026">
+        <span class="card-errorMessage"> must be a number and a valid year </span>
+      </div>
+    </form>
+    <div class="card-separator">
+      <button class="card-button"> calculate</button>
+    </div>
+    <div class="card-result">
+
+      <span class="card-resultValue">--</span>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
